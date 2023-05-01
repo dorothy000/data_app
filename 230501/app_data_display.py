@@ -5,7 +5,7 @@ st.title('Data Display Elements')
 
 st.header('Iris data display')
 
-df = pd.read_csv('iris.csv')
+df = pd.read_csv('Data/iris.csv')
 st.header('Method 1')
 st.dataframe(df)
 
